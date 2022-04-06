@@ -1,0 +1,250 @@
+@charset "UTF-8";
+body{
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    background-image: url("images/hearts2.jpeg");
+    background-repeat: repeat;
+	
+}
+
+h1 {
+	font-family: bookmania,serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: bookmania,serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-family: Oswald;
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+.center { 
+	margin: auto; 
+}
+
+.content{ 
+	margin: auto; 
+	width: 90%; 
+}
+
+.clear { 
+	clear: both; 
+}
+#slide1 .content   {
+    margin-top: 100px;
+}
+
+#header {
+    width: 93%;
+    height: 80px;
+    position: fixed;
+    margin-top: 30px;
+}
+
+
+#logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: bookmania,serif;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 1px 21px #000000;
+    float: right;
+}
+
+
+.album_name_white { 
+	font-family:"bookmania,serif"; 
+	margin: 70px 0 0 75px; 
+	color: #fff; 
+	font-size: 20px; 
+} 
+
+.album_name_text { 
+	font-family:"bookmania,serif"; 
+	margin: 70px 0 0 75px; 
+	color: #000000; 
+	font-size: 20px; 
+} 
+
+.info_container { 
+	width: 85%; 
+	margin: 0 auto; 
+}
+
+#divider { 
+	background: url('../img/divider.png')no-repeat; 
+	width: 300px; height: 35px; 
+	margin: 0px auto 27px auto; }
+
+#slide1, #slide2{ 
+	width: 100%; 
+}
+#album_header1{
+	background-color: #90B7D0;
+	color: #333333;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+#slide1{
+    background: 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    background-image: url(images/txf.png);
+}
+#album_header2{
+	background-color: #861B20;
+	color: #333333;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+#slide2{
+    color: #FFFFFF;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+    background: fixed;
+    background-image: url(images/up_all_night.png);
+    background-size: cover;
+    padding-top: 50px;
+}
+#album_header3{
+	background-color: #262C3C;
+	color: #333333;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+#slide3{
+    color: #FFFFFF;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+    background: fixed;
+    background-image: url(images/take_me_home.png);
+    background-size: cover;
+}
+#album_header4{
+	background-color: #83502E;
+	color: #333333;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+#slide4{
+    color: #FFFFFF;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+    background: fixed;
+    background-image: url(images/midnight_memories.png);
+    background-size: cover;
+}
+#album_header5{
+	background-color: #A75028;
+	color: #333333;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+#slide5{
+    color: #FFFFFF;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+    background: fixed;
+    background-image: url(images/four.png);
+    background-size: cover;
+}
+#album_header6{
+	background-color: #602223;
+	color: #333333;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+#slide6{
+    color: #FFFFFF;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+    background: fixed;
+    background-image: url(images/mitam.png);
+    background-size: cover;
+}
+ol {
+    margin-left: 400px;
+}
+#outro{
+    background-color: #464646;
+    color: #333333;
+    height: 50px;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+.facts {
+	font-family: bookmania,serif;
+	font-weight: 600;
+	font-style: normal;
+    text-align: left;
+    width: 55%;
+    font-size: 15px;
+    clear: none;
+    float: right;
+    max-width: 500px;
+}
+.list1 {
+    margin-top: 90px;
+}	
+.content .info_container img {
+    margin-top: -20px;
+}
